@@ -4,11 +4,10 @@
     <title>Learn Enough JavaScript</title>
     <meta charset="utf-8">
     <script>
-      alert("hello, world");
-      console.log("This page contains a friendly greeting.")
-      let firstName = "Laura";
-      let lastName = "Stevenson";
-      console.log(`${firstName} ${lastName}`)
+      const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      let now = newDate();
+      let dayName = daysOfWeek[now.getDay()];
+      alert(`Hello, world! Happy ${dayName}.`);
     </script>
   </head>
   <body>
