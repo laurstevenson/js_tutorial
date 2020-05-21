@@ -3,15 +3,13 @@
   <head>
     <title>Learn Enough JavaScript</title>
     <meta charset="utf-8">
+    <script src="day.js"></script>
     <script>
-      const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      let now = newDate();
-      let dayName = daysOfWeek[now.getDay()];
-      alert(`Hello, world! Happy ${dayName}.`);
+        let now = new Date();
+        alert(greeting(now));
     </script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>This page includes an alert within JavaScript.</p>
+
   </body>
 </html>
